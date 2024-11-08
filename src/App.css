@@ -1,0 +1,53 @@
+#root{
+  min-height: 100vh;
+  height: 100%;
+  background-image: url(/src/assets/Imagine/bg.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+border: 2px solid rgba(21, 83, 255, 0.664);
+max-width: 350px;
+width: 100%;
+padding: 2em 1.5em;
+background-color: #ffffff80 ;
+-webkit-backdrop-filter: brightness(0.5) blur(5px);
+backdrop-filter:  brightness(0.5) blur(5px);
+border-radius: 1.5em;
+box-shadow: 0 0 15px #3089bc4a ;  
+transition: box-shadow 0.25s;
+}
+
+.card:hover{
+  box-shadow: 0 0 25px #3089bc;
+}
+
+.card__title, .card_subtitle{
+ text-align: center;
+}
+
+
+.card__temperature{
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #000;
+}
+
+.card__button{
+  display: block;
+  width: 100%;
+  padding: 1em;
+  margin-top: 1em;
+  background-color: #3089bc;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
